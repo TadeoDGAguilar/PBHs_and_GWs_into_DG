@@ -1,47 +1,47 @@
 # PBH Merger Model: Multi-Species Interactions in Dense Clusters
 
-Este repositorio contiene un código numérico en Python para modelar la dinámica de **fusiones de agujeros negros primordiales (PBHs)** en cúmulos densos, considerando múltiples especies generacionales. Está basado en el escenario descrito por García-Bellido et al. (2021, 2022) y extiende la estimación de tasas de fusión y emisión de ondas gravitacionales (GWs) para incluir **interacciones entre PBHs de distinta generación**, lo cual es esencial para modelar **fusiones jerárquicas** y **encuentros hiperbólicos cercanos** (CHEs).
+This repository contains a Python-based simulation to model the dynamics of **primordial black hole (PBH) mergers** in dense astrophysical clusters, extending the formalism developed by García-Bellido et al. (2021–2022). It focuses on computing the **gravitational wave (GW) emission** from both **binary black hole (BBH) captures** and **close hyperbolic encounters (CHEs)**, including all interaction combinations between PBHs of different generations.
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Purpose
 
-Evaluar las tasas de fusión de PBHs en cúmulos con perfiles tipo Plummer, calculando:
+To evaluate the merger rates of PBHs in a dense cluster following a Plummer profile, and compute:
 
-- La **tasa de interacciones** para todas las combinaciones posibles entre especies (0G–0G, 0G–1G, 1G–1G),
-- La **potencia total radiada** en ondas gravitacionales,
-- El **número esperado de colisiones** por cascarón,
-- La evolución de **energía y masa en el cúmulo** por interacción.
-
----
-
-## ✅ Versión actual
-
-La versión actual del código realiza lo siguiente:
-
-1. **Define el perfil de densidad tipo Plummer** para un cúmulo denso de PBHs de masa total conocida.
-2. Divide el cúmulo en $N_\text{shells}$ cascarones esféricos para evaluar localmente las tasas de interacción.
-3. Define dos especies de PBHs:
-   - `0G`: PBHs primordiales originales, de masa fija $M_\text{PBH}$.
-   - `1G`: productos de fusión de PBHs 0G–0G, de masa final calculada tras pérdida de energía gravitacional.
-4. Calcula **todas las combinaciones con reemplazo** entre especies: (0G–0G), (0G–1G), (1G–1G).
-5. Para cada combinación:
-   - Evalúa la **densidad numérica**, **velocidades medias cuadráticas**, y **sección eficaz** de fusión.
-   - Calcula la **potencia total** radiada por especie en cada cascarón.
-   - Estima el **número de eventos esperados** por cascarón y por tipo de interacción.
-
-6. Imprime los resultados en formato tabular, incluyendo:
-   - Nombre de la combinación,
-   - Potencia radiada,
-   - Número total de colisiones,
-   - Tiempo característico de generación.
+- The **interaction rate** for all combinations of PBH species (0G–0G, 0G–1G, 1G–1G),
+- The **total power** radiated in gravitational waves,
+- The **expected number of collisions** per shell,
+- The evolution of **cluster energy and mass** over interaction epochs.
 
 ---
 
-## 📦 Requisitos
+## ✅ Current Capabilities
+
+This functional version of the code performs the following steps:
+
+1. **Defines a Plummer density profile** for a compact PBH cluster.
+2. Divides the cluster into spherical shells to evaluate local interactions.
+3. Initializes two PBH species:
+   - `0G`: Original (first-generation) PBHs of fixed mass $M_\mathrm{PBH}$,
+   - `1G`: Merger products of 0G–0G interactions, with final masses corrected for GW energy losses.
+4. Generates **all combinations with replacement** of species: (0G–0G), (0G–1G), (1G–1G).
+5. For each combination:
+   - Computes **number densities**, **mean-square velocities**, and **effective cross-sections**,
+   - Calculates the **total GW power** radiated per shell,
+   - Estimates the **number of expected events** by shell and interaction type.
+
+6. Prints the results in tabular form:
+   - Species combination name,
+   - Radiated GW power,
+   - Total number of collisions,
+   - Characteristic interaction timescale.
+
+---
+
+## 📦 Dependencies
 
 - Python 3.8+
-- Bibliotecas:
+- Required libraries:
   - `numpy`
   - `scipy`
   - `matplotlib`
@@ -51,26 +51,23 @@ La versión actual del código realiza lo siguiente:
 
 ---
 
-## 📍 Próximos pasos
+## 📍 Upcoming Features
 
-- Implementar la **acumulación temporal de potencia radiada** para graficar la evolución de $\Omega_{\mathrm{GW}}(t)$.
-- Incorporar nuevas generaciones (2G, 3G) con control de masas y pérdidas energéticas.
-- Calcular la **distribución espectral de energía** para CHEs y BBHs por especie.
-- Visualizar la evolución jerárquica con gráficos animados.
-
----
-
-## ✏️ Autor
-
-**Tadeo Dariney Gómez Aguilar**  
-Doctorado en Ciencias Físicas  
-Instituto de Ciencias Físicas, UNAM
+- Implement cumulative power tracking to visualize the **time evolution** of $\Omega_{\mathrm{GW}}(t)$,
+- Add **higher-generation species** (2G, 3G, ...) with proper mass and energy tracking,
+- Calculate the **spectral energy distribution** of GW signals for both BBH and CHE scenarios,
+- Animate the **hierarchical merger tree and energy output** over time.
 
 ---
 
-## 📚 Referencias
+# ✍️ Code Written by Tadeo D.
+## Dedicated to the poetry of my life: Dra. Elizabeth América Flores Frías.
 
-- J. García-Bellido, S. Jaraba, S. Kuroyanagi, *The SGWB from close hyperbolic encounters of PBHs in dense clusters*, Phys. Dark Univ. 36 (2022), [arXiv:2109.11376](https://arxiv.org/abs/2109.11376)
-- E. Erfani, T. D. Gómez-Aguilar, J. C. Hidalgo, *Hierarchical merger of primordial black holes in dwarf galaxies*, [arXiv:2205.08906](https://arxiv.org/abs/2205.08906)
-- M. Caldarola et al., *Effects of orbital precession on hyperbolic encounters*, [arXiv:2307.00915](https://arxiv.org/abs/2307.00915)
+---
+
+## 📚 References
+
+- J. García-Bellido, S. Jaraba, S. Kuroyanagi, *The stochastic gravitational wave background from close hyperbolic encounters of primordial black holes in dense clusters*, Phys. Dark Univ. 36 (2022), [arXiv:2109.11376](https://arxiv.org/abs/2109.11376)
+- E. Erfani, T. D. Gómez-Aguilar, J. C. Hidalgo, *Hierarchical Merger of Primordial Black Holes in Dwarf Galaxies*, [arXiv:2205.08906](https://arxiv.org/abs/2205.08906)
+- M. Caldarola, S. Kuroyanagi, S. Nesseris, J. García-Bellido, *Effects of orbital precession on hyperbolic encounters*, [arXiv:2307.00915](https://arxiv.org/abs/2307.00915)
 
