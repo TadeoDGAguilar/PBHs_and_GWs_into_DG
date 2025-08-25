@@ -61,7 +61,7 @@ This functional version of the code performs the following steps:
 ---
 
 # ✍️ Code Written by Tadeo D.
-## Dedicated to the poetry of my life: Dra. Elizabeth América Flores Frías.
+## Dedicated to my girlfriend and fiancée, Dra. Elizabeth América Flores Frías.
 
 ---
 
