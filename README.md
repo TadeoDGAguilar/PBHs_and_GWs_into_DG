@@ -4,6 +4,14 @@ This repository contains a Python-based simulation to model the dynamics of **pr
 
 ---
 
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+  <img src="https://francia.unam.mx/wp-content/uploads/2021/10/Logo-UNAM-Azul-Landscape.png" alt="UNAM" width="225" height="125">
+  <img src="https://mcdonaldinstitute.ca/wp-content/uploads/2018/05/PI-logo-2017-Black-1280x424.png.webp" alt="Perimeter" width="200" height="100">
+  <img src="https://swanseauniversity.cloud.panopto.eu/Panopto/ContentCache/637582254009215017/_branding/f80a49ed-5120-415e-89fe-ab8900ad7d40/637582253354333331_largelogo.png" alt="Swansea" width="225" height="125">
+</div>
+
+
+
 ## 🎯 Purpose
 
 To evaluate the merger rates of PBHs in a dense cluster following a Plummer profile, and compute:
