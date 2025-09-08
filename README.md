@@ -1,6 +1,6 @@
 # PBH Merger Model: Multi-Species Interactions in Dense Clusters
 
-This repository contains a Python-based simulation to model the dynamics of **primordial black hole (PBH) mergers** in dense astrophysical clusters, extending the formalism developed by García-Bellido et al. (2021–2022). It focuses on computing the **gravitational wave (GW) emission** from both **binary black hole (BBH) captures** and **close hyperbolic encounters (CHEs)**, including all interaction combinations between PBHs of different generations.
+This repository contains a Python-based simulation to model the dynamics of **primordial black hole (PBH) mergers** in dense astrophysical clusters, extending the formalism developed by Erfani et al. (2022) in combination with the work of García-Bellido et al. (2021–2022). It focuses on computing the **gravitational wave (GW) emission** from both **binary black hole (BBH) captures** and **close hyperbolic encounters (CHEs)**, including all interaction combinations between PBHs of different generations.
 
 ---
 
