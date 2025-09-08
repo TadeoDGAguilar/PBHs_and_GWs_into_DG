@@ -5,7 +5,7 @@ This repository contains a Python-based simulation to model the dynamics of **pr
 ---
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 1200px;">
- <img src="https://github.com/TadeoDGAguilar/PBHs_and_GWs_into_DG/blob/main/GW_power_vs_redshift_4epochs_10M_b_page-0001.jpg" alt="Herichical" width="200" height="100">
+ <img src="https://github.com/TadeoDGAguilar/PBHs_and_GWs_into_DG/blob/main/GW_power_vs_redshift_4epochs_10M_b_page-0001.jpg" alt="Herichical" width="800" height="600">
 </div>
 
 
