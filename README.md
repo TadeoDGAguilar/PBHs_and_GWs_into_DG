@@ -4,7 +4,7 @@ This repository contains a Python-based simulation to model the dynamics of **pr
 
 ---
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+<div style="display: flex; justify-content: center; align-items: center; gap: 400px;">
  <img src= "https://github.com/TadeoDGAguilar/PBHs_and_GWs_into_DG/blob/main/CHEs_illustration_rad%20(1).pdf" alt="Herichical" width="200" height="100">
 </div>
 
