@@ -5,8 +5,9 @@ This repository contains a Python-based simulation to model the dynamics of **pr
 ---
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
- <img src= "https://tadeodaguilar.netlify.app/project/pytorch/featured_hu5e8d079b00a124ce2d95e415b65e7659_32709_2bc9360503bcbcbfe707734df06983d9.webp" alt="Herichical" width="200" height="100">
+ <img src= "https://github.com/TadeoDGAguilar/PBHs_and_GWs_into_DG/blob/main/CHEs_illustration_rad%20(1).pdf" alt="Herichical" width="200" height="100">
 </div>
+
 
 
 ## 🎯 Purpose
