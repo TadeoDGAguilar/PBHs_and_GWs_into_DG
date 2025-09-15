@@ -57,7 +57,7 @@ This functional version of the code performs the following steps:
 
 ---
 
-## 📍 Upcoming Features
+## 📍 Features
 
 - Implement cumulative power tracking to visualize the **time evolution** of $\Omega_{\mathrm{GW}}(t)$,
 - Add **higher-generation species** (2G, 3G, ...) with proper mass and energy tracking,
